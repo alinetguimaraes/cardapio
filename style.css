@@ -50,6 +50,19 @@ header{
     font-size: small;
 }
 
+.divisao-cardapio{
+    text-align: center;
+}
+
+.titulo-divisao{
+    background-color: #412d2d;
+    display: inline-block;
+    font-size: 30px;
+    color:aliceblue;
+    border: 3px solid aliceblue;
+    padding: 10px;
+}
+
 section{
     background-color: aliceblue;
     margin: 10px 300px;
@@ -72,7 +85,7 @@ section{
     background-color: #e7e7e7;
     padding: 10px;
     border-bottom: 3px solid #584141;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #412d2d;
 }
