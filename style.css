@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    background-color: #ccc;
+    margin:0
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    background-color: #6f6f6f;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid aliceblue
+}
+
+.menu a:hover{
+    background-color: #ccc;
+    color: #6f6f6f;
+}
+
+header{
+    height: 500px;
+    background-image: url(imagens/caranguejo-praia.jpg);
+    background-size:cover;
+    background-position:right center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.titulo-header{
+    color: aliceblue;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.paragrafo-header{
+    background-color:#0000005c;
+    display: inline-block;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    padding: 15px;
+    font-size: small;
+}
+
+section{
+    background-color: aliceblue;
+    margin: 10px 100px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.titulo-main{
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.link-saiba-mais{
+    background-color: #ccc;
+    padding: 10px;
+    font-size: small;
+}
+
+footer{
+    background-color: #6f6f6f;
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: smaller;
+}
