@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: #ccc;
+    background-color:#bda68b;
     margin:0
 }
 
@@ -15,7 +15,7 @@ body{
 
 .menu a{
     display: inline-block;
-    background-color: #6f6f6f;
+    background-color: #584141;
     padding: 10px;
     text-decoration: none;
     color: aliceblue;
@@ -23,8 +23,7 @@ body{
 }
 
 .menu a:hover{
-    background-color: #ccc;
-    color: #6f6f6f;
+    background-color: #bda68b;
 }
 
 header{
@@ -53,25 +52,44 @@ header{
 
 section{
     background-color: aliceblue;
-    margin: 10px 100px;
+    margin: 10px 300px;
     padding: 10px;
-    text-align: justify;
+    text-align: center;
+    position: center;
 }
+
+.imagem{
+    display:inline-block;
+    width: 500px;
+    height: 300px;
+    object-fit:contain;
+    position: center;
+    margin: 3px 200px;
+}
+
 
 .titulo-main{
     background-color: #e7e7e7;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #584141;
+    font-size: 30px;
+    text-align: center;
+    color: #412d2d;
 }
 
-.link-saiba-mais{
-    background-color: #ccc;
+.link-saiba-mais a{
+    background-color: #412d2d;
     padding: 10px;
     font-size: small;
+    color:aliceblue
+}
+
+.link-saiba-mais a:hover{
+    background-color: #bda68b;
 }
 
 footer{
-    background-color: #6f6f6f;
+    background-color: #584141;
     padding: 15px;
     text-align: center;
     color: aliceblue;
