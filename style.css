@@ -39,6 +39,7 @@ header{
     color: aliceblue;
     margin-top: 200px;
     font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .paragrafo-header{
@@ -48,6 +49,7 @@ header{
     border-bottom: 1px solid aliceblue;
     padding: 15px;
     font-size: small;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .divisao-cardapio{
