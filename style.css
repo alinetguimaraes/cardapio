@@ -53,6 +53,8 @@ header{
 
 .divisao-cardapio{
     text-align: center;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .titulo-divisao{
@@ -64,6 +66,13 @@ header{
     padding: 10px;
 }
 
+section{
+    background-color: aliceblue;
+    margin: 10px 400px;
+    padding: 10px;
+    text-align: center;
+    position: center;
+}
 
 .imagem{
     display: block;
@@ -148,7 +157,7 @@ footer{
     /* Maior que 768px */
 
     section{
-        margin: 20px 100px;
+        margin: 20px 200px;
     }
 
     .titulo-divisao{
@@ -165,10 +174,3 @@ footer{
     
 }
 
-section{
-    background-color: aliceblue;
-    margin: 10px 400px;
-    padding: 10px;
-    text-align: center;
-    position: center;
-}
